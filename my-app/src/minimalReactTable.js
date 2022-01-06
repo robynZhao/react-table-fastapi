@@ -77,8 +77,8 @@ const MinimalReactTable =() => {
   console.log(data);
 
   return (
-      <div>
-        <Table columns={columns} data={data} />
+      <div className="app-body">
+        <Table className = "table" columns={columns} data={data} />
       </div>
   );
 }
