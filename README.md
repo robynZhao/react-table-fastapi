@@ -10,8 +10,8 @@
         1. `source venv/bin/activate`
         2. `export PYTHONPATH=$PWD` 
         3. `python main.py` 
-    3. Refresh [http://localhost:3000](http://localhost:3000)
-    4.To view it in your browser
+    3. Refresh [http://localhost:3000](http://localhost:3000) 
+    4. To view it in your browser
         - Open [http://localhost:8000](http://localhost:8000) to see the main page
         - Open [http://localhost:8000/users](http://localhost:8000/users) to see the database in JSON
     5. To view the interactive API documentation: 
