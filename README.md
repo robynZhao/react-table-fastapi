@@ -29,3 +29,13 @@
 3. Design and update the table.css
     - This project is using the copy of css-style for the table from [https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy](https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy), right now 
 4. Build some security stuff into this project
+
+# Some sources that are used in this project: 
+1. Front-end, REACT: 
+    - [https://reactjs.org/](https://reactjs.org/) 
+    - [https://reactjs.org/docs/faq-ajax.html](https://reactjs.org/docs/faq-ajax.html)
+    - REACT-TABLE: [https://react-table.tanstack.com/](https://react-table.tanstack.com/) 
+2. Back-end, Python: [https://www.python.org/](https://www.python.org/)
+3. API, FastAPI: 
+    - [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
+    - [https://fastapi.tiangolo.com/tutorial/sql-databases/](https://fastapi.tiangolo.com/tutorial/sql-databases/) 
