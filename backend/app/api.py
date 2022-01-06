@@ -42,7 +42,7 @@ app.add_middleware(
 
 @app.get("/")
 async def read_root() -> dict:
-    return "Welcome to my minimal React application!"
+    return {"msg":"Welcome to my minimal React application!"}
 
 # fake data to test if the front-end can show correct data
 # users = [

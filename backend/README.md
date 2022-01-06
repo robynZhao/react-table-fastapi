@@ -27,32 +27,14 @@
 ## 7. Check out the alternative API documentation at "http://127.0.0.1:8000/redoc" 
 
 ## 8. Insert new data in app.db manually in the app.db console: 
-`INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
+1. Insert a new data into database:
+    - `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
  VALUES ('1','Leanne Graham','Bret','Sincere@april.biz','770-736-8031','hildegard.org');`
- 
- `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('2','Ervin Howell','Antonette','Shanna@melissa.tv','010-692-6593','anastasia.net');`
- 
-` INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('3','Clementine Bauch','Samantha','Nathan@yesenia.net','463-123-4447','kale.biz');`
- 
- `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('4','Patricia Lebsack','Karianne','Julianne.OConner@kory.org','493-170-9623','demarco.info');`
-
- `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('5','Chelsey Dietrich','Kamren','Lucio_Hettinger@annie.ca','254-954-1289','ramiro.info');`
-
- `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('6','Mrs. Dennis Schulist','Leopoldo_Corkery','Karley_Dach@jasper.info','477-935-8478','ola.org');`
- 
- `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('7','Kurtis Weissnat','Elwyn.Skiles','Telly.Hoeger@billy.biz','210-067-6132','elvis.io');`
- 
- `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('8','Nicholas Runolfsdottir V','Maxime_Nienow','Sherwood@rosamond.me','586-493-6943','jacynthe.com');`
- 
- `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('9','Glenna Reichert','Delphine','Chaim_McDermott@dana.io','775-976-6794','conrad.com');`
- 
- `INSERT INTO users_react_fastAPI_table (id, name, username, email, phone, website)
- VALUES ('10','Clementina DuBuque','Moriah.Stanton','Rey.Padberg@karina.biz','024-648-3804','ambrose.net');`
+2. Delete a data from database: 
+    - `Delete from users_react_fastAPI_table where id='1';` 
+    
+## 9. Add some tests to the project: 
+1. Install pytest: `pip install pytest`
+2. Install requests: `pip install requests`
+3. Run: `pytest`
+4. Follow the instructions: [https://fastapi.tiangolo.com/tutorial/testing/](https://fastapi.tiangolo.com/tutorial/testing/)
